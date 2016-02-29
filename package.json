@@ -1,0 +1,26 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "description": "A CI supporting Github Org webhooks to run on all repos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmingandlogic/cid.git"
+  },
+  "keywords": [
+    "ci"
+  ],
+  "author": "Jared Allard <jaredallard@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/programmingandlogic/cid/issues"
+  },
+  "homepage": "https://github.com/programmingandlogic/cid#readme",
+  "dependencies": {
+    "dockerode": "^2.2.9",
+    "githubhook": "^1.4.0"
+  }
+}
