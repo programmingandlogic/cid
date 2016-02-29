@@ -14,5 +14,6 @@ github.listen();
 
 github.on('*', function (event, repo, ref, data) {
   console.log('event:', event);
-  console.log('\nrepo:', repo);
+  console.log('repo:', repo);
+  console.log('ref:', ref);
 });
