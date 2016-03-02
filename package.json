@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/programmingandlogic/cid#readme",
   "dependencies": {
+    "async": "^1.5.2",
     "dockerode": "^2.2.9",
     "githubhook": "^1.4.0"
   }
